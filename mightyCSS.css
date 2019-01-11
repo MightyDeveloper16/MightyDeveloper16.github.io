@@ -7,20 +7,19 @@ body{
 }
 
 .link{
+	float:center;
+}
+	
+a{
+	text-decoration: none;
+	color: #fff;
+	transition:0.4s ;
+	font-size:55px;
 	text-align:center;
 	background-color:#D81B60;
 	padding: 2px 20px;
 	border: 1px solid transparent;
 	border-radius:15px;
-}
-a{
-	text-decoration: none;
-	color: #fff;
-	
-	
-	transition:0.4s ;
-	font-size:65px;
-	
 }
 a:hover{
 	background-color:#fff;
@@ -28,15 +27,13 @@ a:hover{
 }
 
 h1{
-	
 	color:white;
-	
-	font-size:40px;
-	
+	font-size:40px;	
+	text-align:center;
+	border: 1px solid red;
 }
 .sandesh{
 	margin-bottom: 40px;
-	padding-top:300px;
-	text-align:center;
+	margin-top:23%
 }
 
